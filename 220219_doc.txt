@@ -1,0 +1,17 @@
+220219_doc.txt
+npx hardhat compile
+npx hardhat run scripts/deploy.js --network c4ei
+Transactions deployed to: 0x6978f52AcD6Ac107746d8c8818118d805818c023
+
+/home/dev/www/uniswap-clone-youtube/client/lib/constants.js
+    export const contractAddress = '0x6978f52AcD6Ac107746d8c8818118d805818c023'
+
+cd /home/dev/www/uniswap-clone-youtube/client
+npm install -g @sanity/cli && sanity init
+
+/home/dev/www/swap_study/studio
+npm install -g @sanity/cli
+sanity init --coupon cleverprogrammer
+sanity start
+
+/home/dev/www/swap_study/client/lib/sanityClient.js
